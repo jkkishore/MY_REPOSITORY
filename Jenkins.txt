@@ -70,8 +70,8 @@ Setting up Jenkins for CI - CD
 4  Open the dashboard of Jenkins (localhost:8080) 
 5. Click on manage jenkins --> click on Global tool configuration -- .
 6. Goto jdk installer and  enter some name for java --> Set the path of Java_Home (local java installer path) Like  
-7. One the same page to to git installation give some name to git and paster the path of git.exe
-8. One the same pae go to maven installations give some name to maven and enter the path of apache maven that we downloaded.
+7. One the same page to to git installation,give some name to git and paste the path of git.exe
+8. One the same page go to maven installations, give some name to maven and enter the path of apache maven that we downloaded.
 
 Step 1 - Continuous Download:
 
