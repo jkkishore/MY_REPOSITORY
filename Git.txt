@@ -4,7 +4,7 @@
 Version controlling:
 ====================
 
-version controlling is process of saving different versions of the code.  Each developer at the end of the day uploads his code into some version controlling system. The version controlling systems accept the code coming from multiple developers and created one integrated project out of those uploads.
+Version controlling is process of saving different versions of the code.  Each developer at the end of the day uploads his code into some version controlling system. The version controlling systems accept the code coming from multiple developers and created one integrated project out of those uploads.
 
 The porocess of uploading into version controlling is called checkin.
 The next day when the developers download the code from the version controlling system in this downloaded code they can find the work done by the entire team members. downloading is called checkout.
