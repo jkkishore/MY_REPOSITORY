@@ -6,7 +6,7 @@ Jenkins
 
 Jenkings is a tool for implementing CI - CD
 
-USING jenkings we can autoate the complete build and release and release the cycles
+USING jenkings we can automate the complete build and release and release the cycles
 
 Installing jenkins on windows
 =============================
