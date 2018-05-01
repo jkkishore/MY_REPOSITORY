@@ -49,7 +49,7 @@ STEP 5. CONTINUOUS DELIVERY:
 
 Common Plugins used in Jenkins:
 ===============================
-1. Git Plugin : This is used by jenkins ito integrate with Github and download the source code.
+1. Git Plugin : This is used by jenkins to integrate with Github and download the source code.
 
 2. Maven Integration Plugin : This is used to integrate Jenkins with maven to create an artifact.
 
@@ -57,9 +57,9 @@ Common Plugins used in Jenkins:
 
 4. Copy artifact plugin : This is used to copy the artifacts of one job into another job in jenkins.
 
-5. Build Pipeline Plugin : This is used to seee the flow of Jenkins jobs in a graphical format.
+5. Build Pipeline Plugin : This is used to see the flow of Jenkins jobs in a graphical format.
 
-6. Blueocean Plugin : This is used for getting a complete new theme for jenkins called blueocean. The coming versions of jenkins will be using blue 			ocean as the default theme.
+6. Blueocean Plugin : This is used for getting a complete new theme for jenkins called blueocean. The coming versions of jenkins will be using blue ocean as the default theme.
 
 Setting up Jenkins for CI - CD
 ==============================
