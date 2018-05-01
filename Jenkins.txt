@@ -4,7 +4,7 @@ Date: 19-01-2018
 Jenkins
 --------
 
-Jenkings is a toool for implementing CI - CD
+Jenkings is a tool for implementing CI - CD
 
 USING jenkings we can autoate the complete build and release and release the cycles
 
