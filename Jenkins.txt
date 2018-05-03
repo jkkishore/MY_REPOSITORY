@@ -30,7 +30,7 @@ STEP 1 :CONTINUOUS DOWNLOAD
 	WHENEVER THE DEVELOPER MAKES ANY MODIFICATIONS TO THE CODE AND UPLOADS THEM INTO SOME VERSION CONTROLLING SYSTEMS(GIT SVN), JENKINS WILL DETECT THOSE CHANGES AND DOWNLOAD THE CODE.
 
 STEP 2. CONTINUOUS BUILD:
-	on the code that has been dowloaded in the previous step jenkins will perform a build process  usig plugins like (Ant, Maven, MS build etc) and it will create an artifact (jar, war, ear, exe etc)
+	On the code that has been dowloaded in the previous step jenkins will perform a build process  usig plugins like (Ant, Maven, MS build etc) and it will create an artifact (jar, war, ear, exe etc)
 
 STEP 3. CONTINUOUS DEPLOYMENT:
 	The artifact that has been created in the previous step should be deployed into some application server (tomcat, weblogic, jboss etc) 	running in the QA environment.
@@ -97,7 +97,7 @@ Step 2.  - Continuous Build:
 6. Click on top level maven tragets.
 7. Select the name of maven and enter the goals as clean package
 8. Click on apply --> save
-9. go to dashboard of Jenkins --> go to development job --> click on build
+9. Go to dashboard of Jenkins --> go to development job --> click on build
 
 	This will download the modifications from git and with the help of maven create a artifact (war file)
 
