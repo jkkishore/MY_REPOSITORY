@@ -6,16 +6,16 @@ Version controlling:
 
 Version controlling is process of saving different versions of the code.  Each developer at the end of the day uploads his code into some version controlling system. The version controlling systems accept the code coming from multiple developers and created one integrated project out of those uploads.
 
-The porocess of uploading into version controlling is called checkin.
+The process of uploading into version controlling is called checkin.
 The next day when the developers download the code from the version controlling system in this downloaded code they can find the work done by the entire team members. downloading is called checkout.
 
 Version controlling systems are two types:
 1. Centralised version controlling
 2. Distributed version controlling:
 
-CVC: In cvc the version controlling software is installed on a single machine all the developers have to upload their code into this server.  	Version controlling happens only on this machine.  It tracks the changes done by each developer
+CVC: In cvc the version controlling software is installed on a single machine all the developers have to upload their code into this server. Version controlling happens only on this machine.  It tracks the changes done by each developer
 
-DVC: In DVC we have a local repository installed on every individual developers machine. The code created by each developer will be uploaded first 	into this local repository. Version controlling happens in this local repository at the level of individual developer.
+DVC: In DVC we have a local repository installed on every individual developers machine. The code created by each developer will be uploaded first into this local repository. Version controlling happens in this local repository at the level of individual developer.
 
 Later this code from local repository is uploaded into a remote repository which runs on a centralised server. Here version controlling happens at the level of the complete team.
 
