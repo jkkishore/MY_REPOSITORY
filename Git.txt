@@ -42,18 +42,16 @@ Installing git on Centos, Fedora, OEL, RHEL
 
 Open Gitbash set the username and email ID for all the users for git on this machine.
 
+# git config --global user.name "sai krishna"
 
-
-git config --global user.name "sai krishna"
-
-git config --global user.email "selenium.saikrishna@gmail.com"
+# git config --global user.email "selenium.saikrishna@gmail.com"
 
 
 To see the list of  all the global configuration:
-git config --global --list
+  # git config --global --list
 
 To edit the default configurations:
-git config --global -e
+  # git config --global -e
 
 Create a folder and put some files in it.
 Open Gitbash change directory to  this folder.
@@ -77,30 +75,30 @@ Git Local Repository is the area where version controlling happens at the level 
 
 
 To send files from working directory to stagging area 
-git add filename
+# git add filename
 
 To send multiple files into stagging area
-git add file1 file2 file3
+# git add file1 file2 file3
 
 To send all the files present in the current working directory into staging area
-git add .
+# git add .
 
 Note: . represents current working directory.
 
 To remove a file from  stagging area and bring back to untracked section
-git rm --cached filename
+# git rm --cached filename
 or 
-git reset filename
+# git reset filename
 
 
 To send files from stagging are to local repository
-git commit -m "some message"
+# git commit -m "some message"
 
 To see the list of files in untracked section and stagging area
-git status
+# git status
 
-to see all the commits done into the Local Repository
-git log
+To see all the commits done into the Local Repository
+# git log
 
 
 .gitignore
@@ -109,18 +107,18 @@ This is a hidden file which is used to store info about files that git should no
 If the developer wants to have some files in the working directory which are private and he does not want to send them into the local repository, he can specify those filenames in .gitignore file
 
 
-touch file1 file2 file3 file4
-git status
+# touch file1 file2 file3 file4
+# git status
 The above command will show the four files as untracked files
 	
-cat > .gitignore
+# cat > .gitignore
 file1
 file2
 file3
 file4
 come out of cat  command by using ctrl+d (EOF)
 
-git status
+# git status
 Now we will see that git will no longer track the files whose names are mentioned in .gitignore file.
 
 
