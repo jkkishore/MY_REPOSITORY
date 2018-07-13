@@ -27,13 +27,13 @@ CI - CD STEPS:
 ===============
 
 STEP 1 :CONTINUOUS DOWNLOAD
-	WHENEVER THE DEVELOPER MAKES ANY MODIFICATIONS TO THE CODE AND UPLOADS THEM INTO SOME VERSION CONTROLLING SYSTEMS(GIT SVN), JENKINS WILL DETECT THOSE CHANGES AND DOWNLOAD THE CODE.
+	WHENEVER THE DEVELOPER MAKES ANY MODIFICATIONS TO THE CODE AND UPLOADS THEM INTO SOME VERSION CONTROLLING SYSTEMS(GIT, SVN), JENKINS WILL DETECT THOSE CHANGES AND DOWNLOAD THE CODE.
 
 STEP 2. CONTINUOUS BUILD:
-	On the code that has been dowloaded in the previous step jenkins will perform a build process  usig plugins like (Ant, Maven, MS build etc) and it will create an artifact (jar, war, ear, exe etc)
+	Once the code that has been dowloaded in the previous step, jenkins will perform a build process usig plugins like (Ant, Maven, MS build etc) and it will create an artifact (jar, war, ear, exe etc)
 
 STEP 3. CONTINUOUS DEPLOYMENT:
-	The artifact that has been created in the previous step should be deployed into some application server (tomcat, weblogic, jboss etc) 	running in the QA environment.
+	The artifact that has been created in the previous step should be deployed into some application server (tomcat, weblogic, jboss etc) running in the QA environment.
 
 STEP 4. CONTINUOUS TESTING:
 
@@ -41,7 +41,7 @@ STEP 4. CONTINUOUS TESTING:
 
 STEP 5. CONTINUOUS DELIVERY:
 
-	Once testing has passed jenkins will deploy the artifact into the production environment  where the enduser can start accessing it.
+	Once testing has passed jenkins will deploy the artifact into the production environment  where the end user can start accessing it.
 
 
 
@@ -69,8 +69,8 @@ Setting up Jenkins for CI - CD
 3. Download apache maven (bin.Zip version)
 4  Open the dashboard of Jenkins (localhost:8080) 
 5. Click on manage jenkins --> click on Global tool configuration -- .
-6. Goto jdk installer and  enter some name for java --> Set the path of Java_Home (local java installer path) Like  
-7. One the same page to to git installation,give some name to git and paste the path of git.exe
+6. Go to jdk installer and  enter some name for java --> Set the path of Java_Home (local java installer path) Like  
+7. One the same page go to git installation,give some name to git and paste the path of git.exe
 8. One the same page go to maven installations, give some name to maven and enter the path of apache maven that we downloaded.
 
 Step 1 - Continuous Download:
