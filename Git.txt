@@ -25,12 +25,13 @@ Installing Git on windows:
 2. download Git for windows and install it
 3. Open git bash and fire Git commands
 
-Installing git on ubuntu machine
+Installing git on Ubuntu machine
 =================================
 1. sudo apt-get update
 2. sudo apt-get install git
 
-installing git on centos, fedora, OEL, RHEL
+Installing git on Centos, Fedora, OEL, RHEL
+=============================================
 
 1. sudo yum updarte
 2. sudo yum install git
