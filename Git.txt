@@ -49,10 +49,10 @@ git config --global user.name "sai krishna"
 git config --global user.email "selenium.saikrishna@gmail.com"
 
 
-to see the list of  all the global configuration:
+To see the list of  all the global configuration:
 git config --global --list
 
-to edit the default configurations:
+To edit the default configurations:
 git config --global -e
 
 Create a folder and put some files in it.
@@ -61,7 +61,7 @@ this folder where developer storing the code should be converted into a git repo
 git init
 
 Note: git init will create a hidden folder called as .git.  Once this folder is created we can start executing git commands.
-
+=====
 
 Git is devided into 3 sections:
 
@@ -71,7 +71,7 @@ Git is devided into 3 sections:
 
 Working directory is the default folder where the developer is creating the code. the file presend here are called untracked files.
 
-stagging area is the intermediate buffer zone into which files are initially transferred. The files in stagging area are called stagged files.
+Stagging area is the intermediate buffer zone into which files are initially transferred. The files in stagging area are called stagged files.
 
 Git Local Repository is the area where version controlling happens at the level of the individual developer.  All the files in the stagging are sent intothe local repository.  These files are called committed files.
 
