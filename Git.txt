@@ -57,7 +57,7 @@ git config --global -e
 
 Create a folder and put some files in it.
 Open Gitbash change directory to  this folder.
-this folder where developer storing the code should be converted into a git reporsitory. this can be done using this command
+this folder where developer storing the code should be converted into a git reporsitory. This can be done using this command
 git init
 
 Note: git init will create a hidden folder called as .git.  Once this folder is created we can start executing git commands.
@@ -69,11 +69,11 @@ Git is devided into 3 sections:
 2. Staging Area
 3. Git Local Repository
 
-Working directory is the default folder where the developer is creating the code. the file presend here are called untracked files.
+Working directory is the default folder where the developer is creating the code. The files present here are called untracked files.
 
 Stagging area is the intermediate buffer zone into which files are initially transferred. The files in stagging area are called stagged files.
 
-Git Local Repository is the area where version controlling happens at the level of the individual developer.  All the files in the stagging are sent intothe local repository.  These files are called committed files.
+Git Local Repository is the area where version controlling happens at the level of the individual developer.  All the files in the stagging are sent into the local repository.  These files are called committed files.
 
 
 To send files from working directory to stagging area 
@@ -105,8 +105,8 @@ git log
 
 .gitignore
 
-This is a hidden file which is used to store info about files  that git should not track.
-If the developer wants to have some files inthe working directory which are private and he does not want ot send them into the local repository he can specify those filenames in.gitignore file
+This is a hidden file which is used to store info about files that git should not track.
+If the developer wants to have some files in the working directory which are private and he does not want to send them into the local repository, he can specify those filenames in .gitignore file
 
 
 touch file1 file2 file3 file4
