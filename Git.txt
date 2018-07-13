@@ -141,7 +141,7 @@ The code committed into the git Local repository has to be uplodaded into the re
 
 Note: This is called checkin.
 
-downloading the code from Git
+Downloading the code from Git
 
 This is called checkout and it can be done in 3 ways
 1. git clone
@@ -160,19 +160,19 @@ By default all the activities in git happen on the master branch.
 we can create multiple branches so that the developer can create his code seperately for every functionality.
 Branching will enable us to create code in an uncluttered way. i.e., the developer can create a development branch and test branch and store the code related to developmenent on the development branch and the testing code on the test branch.  Once the code has been created correctly it can be merged with the master branch.
 
-to see the list of branches
+To see the list of branches
 git branch
 
 To see all the branches (local and remote)
 git branch -a
 
-to crate a branch
+To crate a branch
 git branch branchname
 
-to switch into branch
+To switch into branch
 git checkout branchname
 
-to merge a branch
+To merge a branch
 first checkout to master branch
 git merge branchname
 
