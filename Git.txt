@@ -1,5 +1,3 @@
-08-03-2018 DATE/MONTH/YEAR
-
 
 Version controlling:
 ====================
@@ -38,7 +36,7 @@ Installing git on Centos, Fedora, OEL, RHEL
 
 
 
-09-03-2018
+
 
 Open Gitbash set the username and email ID for all the users for git on this machine.
 
@@ -203,7 +201,7 @@ This will download the modified files and directly merge them with the master br
 
 
 
-14-03-2018
+
 
 
 Git Branching:
