@@ -122,7 +122,7 @@ come out of cat  command by using ctrl+d (EOF)
 Now we will see that git will no longer track the files whose names are mentioned in .gitignore file.
 
 
-10-03-2018
+
 
 
 The code committed into the git Local repository has to be uplodaded into the remote git repository
@@ -150,9 +150,9 @@ This is called checkout and it can be done in 3 ways
 
 Git clone:
 ==========
-syntax
-	git clone "Remote git hub url"
-	this will download the complete git remote repository irrespective of whether the same repository is present on the local machine or not.
+Syntax
+	# git clone "Remote git hub url"
+	This will download the complete git remote repository irrespective of whether the same repository is present on the local machine or not.
 
 Branching in git:
 ====================
@@ -161,7 +161,7 @@ we can create multiple branches so that the developer can create his code sepera
 Branching will enable us to create code in an uncluttered way. i.e., the developer can create a development branch and test branch and store the code related to developmenent on the development branch and the testing code on the test branch.  Once the code has been created correctly it can be merged with the master branch.
 
 To see the list of branches
-git branch
+# git branch
 
 To see all the branches (local and remote)
 git branch -a
