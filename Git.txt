@@ -181,14 +181,14 @@ If we are satisfied with the modifications we can merge them with the master bra
 
 1. Open github.com --> edit a file --> commit
 2. in git bash
-	git fetch
+	# git fetch
 3. The modified files will be placed on a remote branch
-4. Git branch -a
+4.  # git branch -a
 5. Move to that remote branch
-	git checkout /remotes/origin/master
+	# git checkout /remotes/origin/master
 6. view the changes. If the changes are ok move to the master branch and merge the remote branch.
-    git checkout master
-    git merge /remotes/origin/master
+     # git checkout master
+     # git merge /remotes/origin/master
 
 
 git pull
