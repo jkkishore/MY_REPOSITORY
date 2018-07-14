@@ -122,7 +122,6 @@ Now we will see that git will no longer track the files whose names are mentione
 
 
 
-
 The code committed into the git Local repository has to be uplodaded into the remote git repository
 
 1. Open github.com
