@@ -194,10 +194,10 @@ If we are satisfied with the modifications we can merge them with the master bra
 git pull
 ========
 This will download the modified files and directly merge them with the master branch.
-1. open github.com-->edit a file ---> commit
+1. Open github.com-->edit a file ---> commit
 2. In git bash
-	git pull
-3. the modified files will be directly placed in the master branch.
+	# git pull
+3. The modified files will be directly placed in the master branch.
 
 
 
