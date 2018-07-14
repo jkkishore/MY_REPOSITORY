@@ -35,9 +35,6 @@ Installing git on Centos, Fedora, OEL, RHEL
 2. sudo yum install git
 
 
-
-
-
 Open Gitbash set the username and email ID for all the users for git on this machine.
 
 # git config --global user.name "sai krishna"
