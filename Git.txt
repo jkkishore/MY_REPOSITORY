@@ -201,9 +201,6 @@ This will download the modified files and directly merge them with the master br
 
 
 
-
-
-
 Git Branching:
 ==============
 
@@ -239,15 +236,14 @@ First checkout to master branch
 
 
 To delete a branch whcih is merged with master branch
-git branch -d branchname (soft delete)
+ # git branch -d branchname (soft delete)
 
 To delete an unmerged branch
-git branch -D branchname (hard delete or force delete)
+ # git branch -D branchname (hard delete or force delete)
 
 
 
-===========
-
+======================
 Git branching for practice:
 
 search for "git with d3"
