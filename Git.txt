@@ -209,33 +209,33 @@ Git Branching:
 
 Create 2 branches called dev and test
 
-git branch dev
-git branch test
+# git branch dev
+# git branch test
 
 To create a branch and checkout into that branch
-git checkout -b branchname
+# git checkout -b branchname
 
-Bothe the dev branch and test branch will contain all the data from the master branch at the time of creation it will also show the complete commiit history of master branch.
+Both the dev branch and test branch will contain all the data from the master branch at the time of creation, it will also show the complete commit history of master branch.
 
 Move into dev branch and modify some files
 
-git checkout dev
-cat > file1
+# git checkout dev
+# cat > file1
 put some data in this file
 save file1
 
 add this file into stagging area from dev branch
-git add .
+  # git add .
 commit the file
-git commit -a "some message"
+  # git commit -a "some message"
 
-Any file committed from a branch belongs to taht branch only
+Any file committed from a branch belongs to that branch only
 If we checkout from the master branch we will not find those changes in file1 in the master branch
 
 To merge those change with master branch
-First cheout to master branch
-git checkout master
-git merge dev
+First checkout to master branch
+  # git checkout master
+  # git merge dev
 
 
 To delete a branch whcih is merged with master branch
