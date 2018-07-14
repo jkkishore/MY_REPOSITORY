@@ -245,7 +245,7 @@ To delete an unmerged branch
 git branch -D branchname (hard delete or force delete)
 
 
-15-03-2018
+
 ===========
 
 Git branching for practice:
