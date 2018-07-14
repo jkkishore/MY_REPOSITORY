@@ -31,7 +31,7 @@ Installing git on Ubuntu machine
 Installing git on Centos, Fedora, OEL, RHEL
 =============================================
 
-1. sudo yum updarte
+1. sudo yum update
 2. sudo yum install git
 
 
@@ -162,22 +162,22 @@ To see the list of branches
 # git branch
 
 To see all the branches (local and remote)
-git branch -a
+# git branch -a
 
-To crate a branch
-git branch branchname
+To create a branch
+# git branch branchname
 
 To switch into branch
-git checkout branchname
+# git checkout branchname
 
 To merge a branch
 first checkout to master branch
-git merge branchname
+# git merge branchname
 
 git fetch
 ==========
-this will download only the modified files and save them on a remote branch.  We can checkin into that remote branch and view the modifications
-if we are satisfied with the modifications we can merge them with the master branch.
+This will download only the modified files and save them on a remote branch.  We can checkin into that remote branch and view the modifications
+If we are satisfied with the modifications we can merge them with the master branch.
 
 1. Open github.com --> edit a file --> commit
 2. in git bash
