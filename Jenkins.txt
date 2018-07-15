@@ -1,5 +1,3 @@
-Date: 19-01-2018
-
 
 Jenkins
 --------
@@ -45,7 +43,7 @@ STEP 5. CONTINUOUS DELIVERY:
 
 
 
-20-01-2018
+
 
 Common Plugins used in Jenkins:
 ===============================
@@ -103,7 +101,7 @@ Step 2.  - Continuous Build:
 
 
 
-Date: 22-01-2018
+
 
 STEP NO.3 : CONTINUOUS DEPLOYMENT:
 
@@ -159,7 +157,7 @@ We should download those programs using jenkins and run them on the application 
 13. the above job will download the selenium testing programs from the github and it will run those programs on the application and display the 	result.
 
 
-Date : 23-01-2018
+
  
 linking jobs in jenkins
 ========================
@@ -218,7 +216,7 @@ using vagrant
 username and password for instances is 'vagrant'
  
 
-24-01-2018
+
 
 Intalling Jenkins on Linux systems:
 ====================================
@@ -278,7 +276,7 @@ OPen the dashboard of jenkins
 
 
 	
-27-01-2018
+
 
 User Management in Jenkins.
 ============================
@@ -323,7 +321,7 @@ Creating roles and assigning.
  if we login into jenkins as user1 we can access only the development related jobs and user2 can access only the testing related jobs.
 
 
-29-01-2018
+
 
 Jenkins Notifications:
 =======================
@@ -378,7 +376,7 @@ These notifications come in the form of popup messages on the desktop of the cor
 9. we should see a notification coming on the desktop.
 	
 
-30-01-2018
+
 
 Build pipeline plugin:
 =======================
@@ -403,7 +401,7 @@ and it enables the developers to integrate their code directly with the jenkins 
 
 
 
-01-02-2018
+
 
 
 Setting ssh keys from Jenkins server to QA server and Prod Server
@@ -446,7 +444,7 @@ This jenkins file can be uploaded by the developer into his git repository and f
 
 
 
-02-02-2018
+
 
 
 Master slave concept in Jenkins:
