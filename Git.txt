@@ -127,9 +127,9 @@ The code committed into the git Local repository has to be uplodaded into the re
 4. click on + icon on top right corner --> new repository
 5. Enter some reposiroty name --> click on create repository
 6. go to push  an existing repository from command line
-	copy the first command and paste it in git bash
+	copy the first command and paste it in git bash (ex: # git remote add origin https://github.com/jkkishore/DevOps.git)
 	the above command will link git local repository with remote repository.
-7. copy the second command and paste in git bash
+7. copy the second command and paste in git bash ( # git push -u origin master )
 	this command will push the code from local repository to remote repository
 	enter username and password of github account.
 
