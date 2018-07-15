@@ -8,9 +8,9 @@ USING jenkings we can automate the complete build and release and release the cy
 
 Installing jenkins on windows
 =============================
-1. open https://jenkins.io/download/
+1. Open https://jenkins.io/download/
 
-2. go to login term suport (LTS)
+2. Go to login term suport (LTS)
 3. Download the version related to Windows
 4 Install it.
 5 To start work on Jenkins
