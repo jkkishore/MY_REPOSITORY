@@ -1,5 +1,4 @@
 Git documentation:
-test
 
 Version controlling:
 ====================
