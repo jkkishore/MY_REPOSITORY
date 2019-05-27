@@ -2,7 +2,7 @@
 Jenkins
 --------
 
-Jenkins is a tool for implementing CI - CD
+Jenkins is a tool for implementing CI - CD implementation.
 
 USING jenkins we can automate the complete build and release and release the cycles
 
